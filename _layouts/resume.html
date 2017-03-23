@@ -35,12 +35,6 @@
           <p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but K.I.S.S.</p>
         </div>
 
-        {% if site.resume_looking_for_work == 'yes' %}
-        <a href="mailto:{{ site.resume_contact_email }}" class="contact-button no-print" itemprop="email">Contact me</a>
-        {% elsif site.resume_looking_for_work == 'no' %}
-        <a class="contact-button not-looking no-print">I'm not looking for work right now.</a>
-        {% else %}
-        {% endif %}
 
       </header>
 
