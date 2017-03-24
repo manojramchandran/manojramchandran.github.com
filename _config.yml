@@ -35,11 +35,10 @@ resume_section_associations:    true
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  resume_github_url:            "https://github.com/manojramachandran"
+  resume_github_url:            "https://github.com/manojramchandran"
   resume_twitter_url:           "http://twitter.com"
   resume_facebook_url:          "https://www.facebook.com/manoj.ramchandran.1"
-  resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
-  resume_website_url:           "manojr11@gmail.com"
+  resume_linkedin_url:          "https://www.linkedin.com/in"
   # resume_instagram_url:         "insert your Instagram URL here"
 resume_print_social_links:      true
 
