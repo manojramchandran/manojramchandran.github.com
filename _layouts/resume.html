@@ -31,7 +31,7 @@
           {% include icon-links.html %}
         </div>
         
-        <!--- FROM HEre changes -->
+        <!--- FROM Here side bar starts-->
        <style>
 
 
@@ -70,13 +70,13 @@
 }
 
 #main {
-    transition: margin-left .5s;
+    transition: margin-left .8s;
     padding: 16px;
 }
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav a {font-size: 20px;}
 }
 </style>
 <body>
@@ -94,8 +94,13 @@
 </div>
 
 <div id="main">
-  <h2>Sidenav Push Example</h2>
-  <p>Click on the element below to open the side navigation menu, and push this content to the right.</p>
+  <style>
+    {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+}
+  </style>
   <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
 </div>
 
