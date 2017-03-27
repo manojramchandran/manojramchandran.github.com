@@ -90,6 +90,7 @@ template {
 
 a {
   background-color: transparent;
+  text-decoration: none !important;
 }
 
 /**
@@ -99,6 +100,7 @@ a {
 
 a:active,
 a:hover {
+  text-decoration: none !important;
   outline: 0;
 }
 
