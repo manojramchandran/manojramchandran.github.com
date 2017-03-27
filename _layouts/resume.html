@@ -89,14 +89,14 @@
 
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#">About</a>
-  <a href="#">Experience</a>
-  <a href="#">Publications</a>
-  <a href="#">Education</a>
-  <a href="#">Projects</a>
-  <a href="#">Skills</a>
-  <a href="#">Associations</a>
-  <a href="#">Address</a>
+  <a id="About">About</a>
+  <a id="Experience">Experience</a>
+  <a id="Recognition">Publications</a>
+  <a id="Education">Education</a>
+  <a id="Projects">Projects</a>
+  <a id="Skills">Skills</a>
+  <a id="Associations">Associations</a>
+  <a id="Address">Address</a>
 </div>
 
 <div id="main">
@@ -117,15 +117,17 @@ function closeNav() {
 </script>
      
 </body>
-
+        <div id = "About">
         <div class="executive-summary no-print" itemprop="description">
           <p>Hello! Welcome to my website. I am an assistant professor in the Department of Computer Science and Engineering at Manipal Institute of Techonology and I teach <ol><li>Computer Networks</li><li>Cryptogtraphy</li><li>C++ Programming</li><li>Linux Programming</li><li>DataBaseManagement Systems</li><li>Data Communication</li></ol> My research areas are - <ol><li>Cryptography</li> <li>Computer Networks</li> <li>Cognitive Radio Networks.</li></p>
+        </div>
         </div>
 
 
       </header>
 
       {% if site.resume_section_experience %}
+      <div id = "Experience">
       <!-- begin Experience -->
       <section class="content-section">
 
@@ -180,9 +182,13 @@ function closeNav() {
               <li>Resident tutor in Hostel</li>
           </ul>
         </div><!-- end of resume-item -->
+        </section>
+      </div>
+        
       
          {% if site.resume_section_recognition %}
       <!-- begin Recognition -->
+        <div id = "Recognition">
       <section class="content-section">
 
         <header class="section-header">
@@ -227,19 +233,20 @@ function closeNav() {
           <h4 class="resume-item-details">R.Manoj, N. Dhinakaran</h4>
           <p class="resume-item-copy">Proceedings of the 12th international conference on networking, VLSI </p>
         </div>
+        
 
 
       </section>
+      </div>
       <!-- end Recognition -->
       {% endif %}
        
-
-      </section>
       <!-- end Experience -->
       {% endif %}
 
       {% if site.resume_section_education %}
       <!-- begin Education -->
+      <div id="Education">
       <section class="content-section">
 
         <header class="section-header">
@@ -271,11 +278,13 @@ function closeNav() {
         </div>
 
       </section>
+      </div>
       <!-- end Education -->
       {% endif %}
 
       {% if site.resume_section_projects %}
       <!-- begin Projects -->
+      <div id = "Projects">
       <section class="content-section">
 
         <header class="section-header">
@@ -295,11 +304,13 @@ function closeNav() {
           </ul>
         </div>
       </section>
+      </div>
       <!-- end Projects -->
       {% endif %}
 
       {% if site.resume_section_skills %}
       <!-- begin Skills -->
+      <div id="Skills">
       <section class="content-section">
 
         <header class="section-header">
@@ -337,6 +348,7 @@ function closeNav() {
         </div>
 
       </section>
+      </div>
       <!-- end Skills -->
       {% endif %}
 
@@ -344,6 +356,7 @@ function closeNav() {
 
       {% if site.resume_section_associations %}
       <!-- begin Associations -->
+      <div id = "Associations">
       <section class="content-section">
 
         <header class="section-header">
@@ -359,11 +372,13 @@ function closeNav() {
         </div>
 
       </section>
+      </div>
       <!-- end Associations -->
       {% endif %}
-
+    <div id = "Address">
       {% if site.resume_section_links %}
       <!-- begin Links -->
+      <div id="links">
       <section class="content-section">
 
         <header class="section-header">
@@ -378,6 +393,7 @@ function closeNav() {
         </div>
 
       </section>
+      </div>
       <!-- end Links -->
       {% endif %}
 
@@ -397,6 +413,7 @@ function closeNav() {
       <!-- end Print Social Links -->
       {% endif %}
 
+    </div>
     </div>
 
   </body>
