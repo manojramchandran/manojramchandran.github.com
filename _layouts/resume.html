@@ -32,7 +32,8 @@
         </div>
         
         <!--- FROM HEre changes -->
-        <style>
+       <style>
+
 
 .sidenav {
     height: 100%;
@@ -78,7 +79,7 @@
   .sidenav a {font-size: 18px;}
 }
 </style>
-<div>
+<body>
 
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -93,23 +94,24 @@
 </div>
 
 <div id="main">
-  <h2>Side Navigation</h2>
+  <h2>Sidenav Push Example</h2>
+  <p>Click on the element below to open the side navigation menu, and push this content to the right.</p>
   <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
 </div>
 
 <script>
 function openNav() {
-    document.getElementById("mySidenav").style.width = "200px";
-    document.getElementById("main").style.marginLeft = "200px";
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
 }
 
 function closeNav() {
-    document.getElementById("mySidenav").style.width = "10";
-    document.getElementById("main").style.marginLeft= "10";
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
 }
 </script>
      
-</div>
+</body>
 
         <div class="executive-summary no-print" itemprop="description">
           <p>Hello! Welcome to my website. I am an assistant professor in the Department of Computer Science and Engineering at Manipal Institute of Techonology and I teach <ol><li>Computer Networks</li><li>Cryptogtraphy</li><li>C++ Programming</li><li>Linux Programming</li><li>DataBaseManagement Systems</li><li>Data Communication</li></ol> My research areas are - <ol><li>Cryptography</li> <li>Computer Networks</li> <li>Cognitive Radio Networks.</li></p>
@@ -395,3 +397,5 @@ function closeNav() {
   </body>
 
 </html>
+
+
