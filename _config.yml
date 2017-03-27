@@ -1,6 +1,6 @@
 # Site settings
 title: "My Resume"
-description: "Online CV of Manoj Ramachandran"
+description: "Online CV of Manoj R"
 
 # Build settings
 markdown: kramdown
@@ -10,7 +10,7 @@ sass:
 
 # Resume settings
 resume_avatar:                  "true"
-resume_name:                    "Manoj Ramachandran"
+resume_name:                    "Manoj R"
 resume_title:                   "Assistant Professor Senior Scale"
 resume_contact_email:
   "manojr11@manipal.edu"
